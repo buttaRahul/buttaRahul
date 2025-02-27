@@ -22,7 +22,7 @@
 
 <div>
   <img width="45%" align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=buttaRahul&show_icons=true&locale=en&layout=compact" alt="buttaRahul" />
-  <img width="50%"  src="https://github-readme-streak-stats.herokuapp.com/?user=buttaRahul&" alt="buttaRahul" />
+<!--   <img width="50%"  src="https://github-readme-streak-stats.herokuapp.com/?user=buttaRahul&" alt="buttaRahul" /> -->
 </div>
 
 [LinkedIn]: https://www.linkedin.com/in/rahul-aditya/
