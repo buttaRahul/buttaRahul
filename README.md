@@ -1,35 +1,32 @@
+## Rahul Aditya, ML Engineer
 
+I build and ship ML systems: LLM fine-tuning and retrieval, clinical prediction on claims data, and on-device multimodal inference.
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FbuttaRahul%2FbuttaRahul&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Profile+Views&edge_flat=false)](https://hits.seeyoufarm.com)
+**Now:** ML Engineer at Zynix AI, working on clinical risk models, healthcare fraud and waste detection, and voice agents.
 
-[![Linkedin Badge](https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white)][linkedin]&nbsp;
-[![Gmail Badge](https://img.shields.io/badge/-gmail-EA4335?style=for-the-badge&logo=Gmail&logoColor=white)][mail]
-[![Kaggle Badge](https://img.shields.io/badge/Kaggle-035a7d?style=for-the-badge&logo=kaggle&logoColor=white)][Kaggle]
-[![Leetcode Badge](https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=LeetCode&logoColor=#d16c06)][Leetcode]
+### Selected work
 
-## Hey there. I'm Rahul Aditya. Welcome to my GitHub profile.
-🤖 Love building things at the union of Machine Learning and Web/App Dev.
+- **Healthcare fraud and waste detection**: a five-layer detection pipeline for durable medical equipment claims: rules, peer baselines, an anomaly ensemble, graph features, and positive-unlabeled learning on a confirmed fraud scheme. Validated against the OIG exclusion list.
+- **Clinical risk models**: 30-day admission, ER-visit and readmission models, plus disease-progression models, with thresholds sized to care-team capacity.
+- **Multilingual graph RAG**: productionised GFM-RAG, a GNN retriever over a document knowledge graph, across 12 Indian languages, beating a ColBERTv2 baseline on multi-hop retrieval.
+- **Edge multimodal agents**: an on-device voice agent on an NVIDIA Jetson AGX Orin, with faster-whisper, LLaVA-1.5 7B quantised to 4-bit with AWQ, Chatterbox TTS, and attention-sink KV caching.
+- **Video understanding**: fine-tuned VideoMAE for live cricket event detection in a production ensemble serving Disney+ Hotstar.
+- **LLM fine-tuning**: QLoRA and LoRA fine-tunes of 7B models for structured generation (natural language → JSONLogic rules) and domain chatbots.
 
+### Public projects
 
-[My Portfolio Website](https://rahuladitya-portfolio.netlify.app/)
-### 🖥 Skills
+| Project | What it is |
+|---|---|
+| [Image-Caption-Generation](https://github.com/buttaRahul/Image-Caption-Generation) | Transformer captioner with spatial cross-attention over EfficientNetB0 regions; BLEU-4 23.4 (beam) on held-out Flickr8k |
+| [clinical_triage_env](https://github.com/buttaRahul/clinical_triage_env) | OpenEnv RL environment for emergency-department triage with an asymmetric, clinically shaped reward |
+| [multimodal_video_summarization](https://github.com/buttaRahul/multimodal_video_summarization) | Video summarisation that combines the transcript with descriptions of key frames before LLM summarisation |
+| [Query-Assist](https://github.com/buttaRahul/Query-Assist) | Rule-based natural-language-to-SQL with speech input |
 
-- Machine Learning
-- Deep Learning
-- Natural Language Processing
-- Computer Vision
-- Front-end Development
-### ⚙️ Tech Stack
+### Stack
 
-![Bootstrap](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white) ![Bootstrap](https://img.shields.io/badge/TensorFlow-FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Bootstrap](https://img.shields.io/badge/PyTorch-EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![Bootstrap](https://img.shields.io/badge/scikitlearn-F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Bootstrap](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=MySQL&logoColor=white) ![Bootstrap](https://img.shields.io/badge/PostgreSQL-4169E1.svg?style=for-the-badge&logo=PostgreSQL&logoColor=white5) ![Bootstrap](https://img.shields.io/badge/pandas-150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Bootstrap](https://img.shields.io/badge/OpenCV-5C3EE8.svg?style=for-the-badge&logo=OpenCV&logoColor=white) ![Bootstrap](https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black) ![Bootstrap](https://img.shields.io/badge/-SpaCy%2C%20Gensim%2C%20fasttext-05122A?style=flat-square&logo=SpaCy,-Gensim,-fasttext&color=353535) ![Bootstrap](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)  ![Bootstrap](https://img.shields.io/badge/Django-092E20.svg?style=for-the-badge&logo=Django&logoColor=white)
+**Modelling:** PyTorch, Hugging Face Transformers, PEFT (LoRA / QLoRA), XGBoost, scikit-learn
+**Training and inference:** DDP and 3D parallelism, AutoAWQ, faster-whisper, NVIDIA Jetson
+**Retrieval:** GraphRAG (GFM-RAG), RAG pipelines
+**Data:** SQL, pandas
 
-<div>
-  <img width="45%" align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=buttaRahul&show_icons=true&locale=en&layout=compact" alt="buttaRahul" />
-<!--   <img width="50%"  src="https://github-readme-streak-stats.herokuapp.com/?user=buttaRahul&" alt="buttaRahul" /> -->
-</div>
-
-[LinkedIn]: https://www.linkedin.com/in/rahul-aditya/
-[mail]: mailto:butta.rahul.aditya@gmail.com
-[Kaggle]: https://www.kaggle.com/adityarahul
-[Leetcode]: https://leetcode.com/u/aditya_Rahul/
-
+[LinkedIn](https://www.linkedin.com/in/rahul-aditya/) · [Kaggle](https://www.kaggle.com/adityarahul) · [Email](mailto:butta.rahul.aditya@gmail.com)
