@@ -24,7 +24,7 @@ I build and ship ML systems: LLM fine-tuning and retrieval, clinical prediction 
 
 ### Publications
 
-- Query-Assist, natural-language-to-SQL: [Springer book chapter](https://link.springer.com/chapter/10.1007/978-981-97-8193-5_6)
+- S. V. Boddu, **R. A. Butta**, G. Sannidhi, M. V. Yerakaraju. [QueryAssist: Multimodal Verbal Specifications to Structured Query Conversion Model Using Word Vector-Based Semantic Analysis](https://link.springer.com/chapter/10.1007/978-981-97-8193-5_6). InCITe 2024, *Lecture Notes in Electrical Engineering*, vol. 1278, Springer, 2025, pp. 61–69.
 
 ### Stack
 
