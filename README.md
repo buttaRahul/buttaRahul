@@ -22,6 +22,10 @@ I build and ship ML systems: LLM fine-tuning and retrieval, clinical prediction 
 | [multimodal_video_summarization](https://github.com/buttaRahul/multimodal_video_summarization) | Video summarisation that combines the transcript with descriptions of key frames before LLM summarisation |
 | [Query-Assist](https://github.com/buttaRahul/Query-Assist) | Rule-based natural-language-to-SQL with speech input |
 
+### Publications
+
+- Query-Assist, natural-language-to-SQL: [Springer book chapter](https://link.springer.com/chapter/10.1007/978-981-97-8193-5_6)
+
 ### Stack
 
 **Modelling:** PyTorch, Hugging Face Transformers, PEFT (LoRA / QLoRA), XGBoost, scikit-learn
